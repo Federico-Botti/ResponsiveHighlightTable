@@ -1,0 +1,59 @@
+body {
+background-color: green;
+}
+
+table {
+	width: 100%;
+	max-width: 100%;
+}
+
+.row1, .row2, .row3, .row4 {
+  background-color: #46b450;
+}
+
+tr.row1:hover, tr.row2:hover, tr.row3:hover, tr.row4:hover
+{
+  background-color: #c2d90d;
+}
+
+.col1 {
+	width:20%; 		   
+	text-align: right;
+}
+
+.col2 {
+	width: 20%;
+	font-size: 14px;
+}
+
+.col3 {
+	width: 42%;
+	text-align: left;
+}
+
+.col4 {
+	text-align: center;
+	padding: 0;
+}
+
+.title_table {
+	color: white;
+	font-size: 20px;
+}
+
+@media only screen and (max-width:801px){
+.title_table {
+	font-size: 14px;
+}
+
+.col2 {
+	font-size:8px;
+	}
+	
+.col3 {
+	font-size:10px;
+}
+.col4 {
+	font-size:9px;
+}
+}
